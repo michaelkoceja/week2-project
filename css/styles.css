@@ -1,3 +1,22 @@
 #header-image {
   background: tomato;
 }
+
+.content {
+  border: 1px dashed red;
+  box-sizing: border-box;
+}
+
+#footer-image {
+  background: tomato;
+}
+
+.row img {
+  width: 100%;
+}
+
+@media screen and (min-width:768px) {
+  #second-row {
+    float: right;
+  }
+}
